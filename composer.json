@@ -20,9 +20,10 @@
     },
     "require": {
         "composer/installers": "^2.0",
-        "drupal/core-composer-scaffold": "^10.0",
-        "drupal/core-project-message": "^10.0",
-        "drupal/core-recommended": "^10.0",
+        "drupal/core-composer-scaffold": "9.5.9",
+        "drupal/core-project-message": "9.5.9",
+        "drupal/core-recommended": "9.5.9",
+        "drupal/responsive_menus": "^1.0@alpha",
         "drupal/twig_tweak": "^3.2",
         "drush/drush": "^11.4",
         "ebremner17/br50_theme": "1.0.x-dev"
@@ -30,7 +31,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
