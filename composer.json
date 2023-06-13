@@ -16,6 +16,10 @@
         "ebremner17/br50_theme": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/br50_theme.git"
+        },
+        "ebremner17/br50_cfg": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/br50_cfg.git"
         }
     },
     "require": {
@@ -29,6 +33,7 @@
         "drupal/responsive_menus": "^1.0@alpha",
         "drupal/twig_tweak": "^3.2",
         "drush/drush": "^11.4",
+        "ebremner17/br50_cfg": "1.0.x-dev",
         "ebremner17/br50_theme": "1.0.x-dev"
     },
     "conflict": {
