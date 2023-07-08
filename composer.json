@@ -28,6 +28,7 @@
         "drupal/core-composer-scaffold": "9.5.9",
         "drupal/core-project-message": "9.5.9",
         "drupal/core-recommended": "9.5.9",
+        "drush/drush": "^11 || ^12",
         "drupal/fullcalendar_view": "^5.1",
         "drupal/layout_builder_browser": "^1.5",
         "drupal/layout_builder_modal": "^1.2",
@@ -40,14 +41,17 @@
         "drupal/smart_date_calendar_kit": "^2.1",
         "drupal/smart_date_starter_kit": "^2.2",
         "drupal/twig_tweak": "^3.2",
-        "drush/drush": "^11.4",
+        "drupal/fitvids": "^2.0",
+        "drupal/media_thumbnails_pdf": "^2.0@beta",
+        "drupal/quick_node_clone": "^1.16",
+        "drupal/field_group": "^3.4",
         "ebremner17/br50_cfg": "1.0.x-dev",
         "ebremner17/br50_theme": "1.0.x-dev"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
